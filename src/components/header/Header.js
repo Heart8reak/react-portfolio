@@ -15,7 +15,6 @@ export default class Header extends Component {
                             <li className="current"><a className="smoothscroll" href="#about">About</a></li>
                             <li className="current"><a className="smoothscroll" href="#education">Education</a></li>
                             <li className="current"><a className="smoothscroll" href="#work">Work</a></li>
-                            <li className="current"><a className="smoothscroll" href="#contact">Contact</a></li>
                         </ul>
                     </nav>
                     <div className="row banner">
@@ -26,9 +25,9 @@ export default class Header extends Component {
 
                             <hr />
                             <ul className="social">
-                                <li><a href="#"><i className="fa fa-twitter" /></a></li>
-                                <li><a href="#"><i className="fa fa-linkedin" /></a></li>
-                                <li><a href="#"><i className="fa fa-instagram" /></a></li>
+                                <li><a href="https://twitter.com/carlos_baez1223" target="_blank"><i className="fa fa-twitter" /></a></li>
+                                <li><a href="https://github.com/Heart8reak" target="_blank"><i className="fa fa-linkedin" /></a></li>
+                                <li><a href="https://www.instagram.com/baez_1223/" target="_blank"><i className="fa fa-instagram" /></a></li>
                             </ul>
                         </div>
                     </div>
