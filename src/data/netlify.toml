@@ -1,0 +1,4 @@
+[build]
+base= "my_portfolio3"
+publish= "my_portfolio3/src/"
+command= "yarn start"
