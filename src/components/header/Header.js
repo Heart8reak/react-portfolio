@@ -13,6 +13,7 @@ export default class Header extends Component {
                         <ul id="nav" className="nav">
                             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                             <li className="current"><a className="smoothscroll" href="#about">About</a></li>
+                            <li className="current"><a className="smoothscroll" href="#education">Education</a></li>
                             <li className="current"><a className="smoothscroll" href="#work">Work</a></li>
                             <li className="current"><a className="smoothscroll" href="#contact">Contact</a></li>
                         </ul>
@@ -20,7 +21,7 @@ export default class Header extends Component {
                     <div className="row banner">
                         <div className="banner-text">
                             <h1 className="responsive-headline">{resumeData.name}</h1>
-                            <h3>I'm a {resumeData.location} based <span>{resumeData.role}</span>, <span>illustrator</span> and <span>webdesigner</span> {resumeData.description}. Let's <a className="smoothscroll" href="#about">start scrolling </a>
+                            <h3>A {resumeData.location} based <span>{resumeData.role}</span>, <span>illustrator</span> and <span>webdesigner</span> {resumeData.description}. Let's <a className="smoothscroll" href="#about">start scrolling </a>
                                 and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
 
                             <hr />

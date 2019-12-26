@@ -12,20 +12,12 @@ export default class About extends Component {
 
                         <div className="nine columns main-col">
                             <h2>About Me</h2>
-                            <p></p>
+                            <p>Proficient with React Javascript. Currently focusing on developing user interface (UI) components. Translating designs and wireframes into high quality code, and optimzing components for maximum performance across a vast array of web-capable devices and browsers.</p>
                             <div className="row">
                                 <div className="columns contact-details">
-                                    <h2>Contact Details</h2>
-                                    <p className="address">
-                                        <span>Jonathan Doe</span><br />
-                                        <span>1600 Amphitheatre Parkway<br />
-                                            Mountain View, CA 94043 US
-                  </span><br />
-                                        <span>(123)456-7890</span><br />
-                                        <span>anyone@website.com</span>
-                                    </p>
+
                                 </div>
-                                <div className="columns download">
+                                <div className="download">
                                     <a className="button" href="../../../assets/online_resume_092019.pdf" download>
                                         <i className="fa fa-download" />
                                         Download Resume
